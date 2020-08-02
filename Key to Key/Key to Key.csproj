@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Key_to_Key</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RamGecTools\RamGecTools.csproj" />
+    <ProjectReference Include="..\WindowSwitchingHook\WindowSwitchingHook\WindowSwitchingHook.csproj" />
+    <ProjectReference Include="..\WrapKeybd_event\WrapKeybd_event.csproj" />
+  </ItemGroup>
+
+</Project>
